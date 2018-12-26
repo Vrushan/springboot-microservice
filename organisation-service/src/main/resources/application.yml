@@ -1,0 +1,12 @@
+server:
+  port: 8092
+
+
+spring:
+  application:
+    name: organisation-service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8061/eureka/
